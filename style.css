@@ -1,0 +1,99 @@
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.highlight {
+  color: #00d9ff;
+}
+
+.nav-link:hover {
+  color: #00d9ff !important;
+}
+#contact h2 {
+  font-weight: bold;
+}
+
+#formMessage {
+  font-weight: 500;
+}
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+}
+
+.dark-mode section {
+  background-color: #121212;
+}
+
+.dark-mode .bg-light {
+  background-color: #1f1f1f !important;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-color: #444;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #bbb;
+}
+.progress {
+  height: 22px;
+}
+
+.progress-bar {
+  width: 0;
+  transition: width 1.5s ease-in-out;
+  font-weight: 500;
+}
+.progress {
+  height: 22px;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  width: 0;
+  font-weight: bold;
+  transition: width 1.5s ease-in-out;
+}
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.dark-mode .card {
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.dark-mode .card-footer {
+  background-color: #1f1f1f;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
